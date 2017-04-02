@@ -1,0 +1,338 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jakkrit Seehasut a Personal Portfolio | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='//fonts.googleapis.com/css?family=Jockey+One' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<!--//fonts-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!--for-mobile-apps-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Peak Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!--//for-mobile-apps-->
+	<!--js-->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!--js-->
+	<!--start-smoth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!--start-smoth-scrolling-->
+</head>
+<body>
+<!--banner-->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-left">
+					<div class="grid__item color-4">
+						<a class="link link--kumya" href="#home"><span data-letters="Jakkrit">Jakkrit</span></a>
+					</div>
+				</div>
+				<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+            <div class="col-md banner-button">
+          <h1>Hello everyone.</h1>
+          <p>My name is Jakkrit Seehasut, you can call me Chote.</p>
+							<nav class="cl-effect-1">
+								<ul class="nav1">
+									<li><a class="scroll" href="#home">Home</a></li>
+									<li><a class="scroll" href="#skill">Skill</a></li>
+										<li><a class="scroll" href="#work">Work</a></li>
+									<li><a class="scroll" href="#contact">Contact</a></li>
+									<li><a class="scroll" href="#about">About</a></li>
+								</ul>
+							</nav>
+
+							<!-- script for menu -->
+							<script>
+								$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								});
+								});
+							</script>
+							<!-- //script for menu -->
+            </div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-8 banner-image text-center">
+				<img src="images/banner.png" alt=""/>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- my skills -->
+<div id="skill" class="skill">
+		<div class="skill-info">
+	<div class="our-skills">
+		<div class="container">
+			<div class="skill-info">
+				<h2>My Coding SKillS</h2>
+			</div>
+			<div class="skill-grids">
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>UI Designer</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-7"></div>
+						<p>Web developer</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Html</p>
+					</div>
+					<div class="col-md-3 skills-grid text-center">
+						<div class="circle" id="circles-6"></div>
+						<p>JAVA</p>
+					</div>
+          <h2>My Language Skills</h2>
+                  <div class="skill-grids">
+                      <div class="col-md-3 skills-grid text-center">
+                        <div class="circle" id="circles-1"></div>
+                        <p>Japanese</p>
+                      </div>
+                      <div class="col-md-3 skills-grid text-center">
+                        <div class="circle" id="circles-4"></div>
+                        <p>English</p>
+                      </div>
+                      <div class="col-md-3 skills-grid text-center">
+                        <div class="circle" id="circles-2"></div>
+                        <p>Chinese</p>
+                      </div>
+                      <div class="col-md-3 skills-grid text-center">
+                        <div class="circle" id="circles-8"></div>
+                        <p>Thai</p>
+                      </div>
+                <div class="clearfix"> </div>
+          <script type="text/javascript" src="js/circles.js"></script>
+                  <script>
+               var colors = [
+                   ['#ffffff', '#fd9426'], ['#ffffff', '#fc3158'],['#ffffff', '#53d769'], ['#ffffff', '#147efb']
+                 ];
+               for (var i = 1; i <= 8; i++) {
+                 var child = document.getElementById('circles-' + i),
+                   percentage = 10 + (i * 10);
+
+                 Circles.create({
+                   id:         child.id,
+                   percentage: percentage,
+                   radius:     80,
+                   width:      10,
+                   number:   	percentage / 1,
+                   text:       '%',
+                   colors:     colors[i - 1]
+                 });
+               }
+       </script>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- //my skills -->
+<div id="work" class="work">
+	<div class="container">
+		<div class="work-info">
+				<h1><center>Work</h1></cen><br>
+						<p>My project1 is Thai Foods Allergy Information System (Thai Food Good Health). My adviser is Dr.Nattapong Tongtep.</p>
+            <div id="portfolio" class="gallery">
+  		<div class="container">
+  				<script src="js/jquery.chocolat.js"></script>
+  			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+  			<!--light-box-files -->
+  			<script type="text/javascript" charset="utf-8">
+  			$(function() {
+  				$('.gallery a').Chocolat();
+  			});
+  			</script>
+  			<section>
+          <h2><font color=black>Picture of Project<font></h2>
+  				<ul id="da-thumbs" class="da-thumbs">
+  					<li>
+  						<a href="images/w1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w1.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+  							</div>
+  						</a>
+  					</li>
+  					<li>
+  						<a href="images/w2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w2.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+  							</div>
+  						</a>
+  					</li>
+  					<li>
+  						<a href="images/w3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w3.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+
+  							</div>
+  						</a>
+  					</li>
+  					<li>
+  						<a href="images/w4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w4.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+
+  							</div>
+  						</a>
+  					</li>
+  					<li>
+  						<a href="images/w5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w5.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+
+  							</div>
+  						</a>
+  					</li>
+  					<li>
+  						<a href="images/w6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+  							<img src="images/w6.jpg" alt="" />
+  							<div>
+  								<h5>VIEW</h5>
+
+  							</div>
+  						</a>
+  					</li>
+  					<div class="clearfix"> </div>
+  				</ul>
+  			</section>
+  				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+  				<script type="text/javascript">
+  					$(function() {
+  						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+  					});
+  				</script>
+          </div>
+  </div>
+  <!--//gallery-->
+  			<h5>My Github</h5>
+        <p><a href="https://github.com/choteseehasut">Click for link</a></p><br>
+				<h5>My Blog</h5>
+					<p><a href="http://gochotkokkloy.blogspot.com/2013/12/blog-post.html">Click for link</a></p><br>
+				<h5>My Web site</h5>
+				<p><a href="http://khokkloibychote.azurewebsites.net/">Click for link</a></p><br>
+
+<!--work-->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>ABOUT ME</h3>
+				<p>Hello, my name is Jakkrit Seehasut. My nick name is Chote. I am 20 years old, and a student at Prince of Songkla university. My major is information technology. I come from Phang Nga.</p>
+		</div>
+		<div class="about-grids">
+		   	<div class="col-md-6 about-grid">
+		   		<h4><font color=black>My experience</font></h4>
+		   		<p>15-NOV-59 PSU student Volunteer Open House 2016. Worldwide Cloud<br>
+						- Tutorail create a personel Web site.<br>
+						- Teching program of microsoft.<br>
+					2016-2017 Student Union<br>
+						- Plan and control avtivity of the University.<br>
+						- Coordination between the students and the University.<br>
+					</p>
+		   	</div>
+		   	<div class="col-md-6 about-grid">
+		   		<h4><font color=black>My goals</font></h4>
+		   		<p>I will be a best programmer.</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+<!-- contact-us -->
+<div id="contact" class="contact">
+		<div class="contact-info">
+			<h1><center>CONTACT</center></h1>
+		</div>
+<div class="contact-us">
+	<div class="container">
+		<div class="contact-grids">
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></div>
+				<p>29/1, M.10, Kokkloy, Takuathung, Phang Nga, Thailand 82140</p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+				<p><a href="https://www.facebook.com/jakkrit.seehasut">chot.seehasut@gmail.com</a></p>
+			</div>
+			<div class="col-md-4 contact-grid text-center">
+				<div class="point-icon"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></div>
+				<p>(+66)901-638378</p>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="contact-info">
+			<form>
+				<input type="text" placeholder="Your Name" required>
+				<input type="text" placeholder="Your E-Mail" required>
+				<input type="text" placeholder="Subject" required>
+				<textarea placeholder="Your Message" required></textarea>
+				<input type="submit" value="SEND MESSAGE">
+			</form>
+		</div>
+	</div>
+</div>
+<!-- //contact-->
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4699.762179674529!2d98.35065038780701!3d7.893690272600994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x43ed556e96eb7eb8!2z4LiE4LiT4Liw4LmA4LiX4LiE4LmC4LiZ4LmC4Lil4Lii4Li14LmB4Lil4Liw4Liq4Li04LmI4LiH4LmA4LmA4Lin4LiU4Lil4LmJ4Lit4Lih!5e0!3m2!1sth!2sth!4v1491014247878" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</div>
+<!-- //get-in -->
+<!-- footer -->
+<div class="copy-right">
+	<div class="container">
+		<p> &copy; Prince of Songkla University <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!-- footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear'
+			};
+		*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
